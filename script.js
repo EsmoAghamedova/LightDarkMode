@@ -2,7 +2,7 @@ const toggle = document.getElementById("theme-toggle")
 const body = document.body
 
 const saved = localStorage.getItem("theme")
-const prefersDark = window.matchMedia("(prefers-color-schemes: dark").matches
+const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches
 const isDark = saved ? saved === "dark" : prefersDark
 
 function applyTheme(dark) {
