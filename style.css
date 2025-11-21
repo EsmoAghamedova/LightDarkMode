@@ -126,8 +126,8 @@ footer {
 footer p {
     margin: 0;
     font-size: 0.875rem;
+}
 
-/* Small responsive tweaks */
 @media (max-width:420px) {
     .switch {
         width: 56px;
